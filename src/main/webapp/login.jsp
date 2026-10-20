@@ -122,6 +122,7 @@
         
         <button type="submit" class="btn-submit">Authorize & Open Terminal</button>
     </form>
+    
 </div>
 
 </body>

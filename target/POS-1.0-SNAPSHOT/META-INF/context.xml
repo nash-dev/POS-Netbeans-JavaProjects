@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Context path="/POS"/>
-<Context>
-<Resource name="jdbc/pos_db"
+<Context path="/POS">
+        <Resource name="jdbc/pos_db"
           auth="Container"
           type="javax.sql.DataSource"
           maxTotal="100"
@@ -11,4 +10,5 @@
           password="Password01"
           driverClassName="org.postgresql.Driver"
           url="jdbc:postgresql://localhost:5432/pos_db"/>
+      
 </Context>

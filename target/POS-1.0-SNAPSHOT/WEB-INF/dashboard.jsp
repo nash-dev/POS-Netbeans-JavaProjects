@@ -1,5 +1,5 @@
 <%-- any content can be specified here e.g.: --%>
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
 <%
     // Session Guard: Redirect anonymous access attempts back to the gateway
     if (session.getAttribute("user") == null) {
@@ -18,5 +18,7 @@
     <hr>
     <!-- POS business operations elements go here -->
     <a href="logout.jsp">Close Register & Sign Out</a>
+    
+    <button id="btnLogout" name="Logout">Logout</button>
 </body>
 </html>
