@@ -31,6 +31,12 @@
             <version>7.0.109</version>
             <type>jar</type>
         </dependency>
+        <dependency>
+            <groupId>javax.ejb</groupId>
+            <artifactId>javax.ejb-api</artifactId>
+            <version>3.2.2</version>
+            <scope>provided</scope>
+        </dependency>
     </dependencies>
     
     <build>

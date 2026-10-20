@@ -3,5 +3,6 @@ myacademics\pos\dao\UserDAO.class
 myacademics\pos\JakartaRestConfiguration.class
 myacademics\pos\resources\JakartaEE11Resource.class
 myacademics\pos\model\User.class
+myacademics\pos\User.class
 myacademics\pos\controller\DashboardServlet.class
 myacademics\pos\dao\DBConnection.class
