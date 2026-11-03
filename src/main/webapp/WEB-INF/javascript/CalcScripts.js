@@ -11,5 +11,6 @@ function addToCart()
 
 function appendNum(num)
 {
-    
+     document.getElementById()
+     
 }

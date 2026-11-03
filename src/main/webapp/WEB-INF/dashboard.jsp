@@ -11,7 +11,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <script src="POS\src\main\webapp\WEB-INF\javascript\CalcScripts.js"></script>    
+
     <title>POS Dashboard</title>
 </head>
 <body>
@@ -19,7 +19,7 @@
     <p>Role Authorized: <%= session.getAttribute("role") %></p>
     <iframe>
     <input type="text" id="calc-display" class="display" value="0" readonly />
-
+    <div class="calc">
     <button onclick="appendNum('1')"type="submit" class="calculator" id="btnOne" name="1">1</button>
     <button onclick="appendNum('2')"type="submit" class="calculator" id="btnTwo" name="2">2</button>
     <button onclick="appendNum('3')"type="submit" class="calculator" id="btnThree" name="3">3</button>
@@ -39,13 +39,20 @@
     <button type="submit" class="calculator" id="btnErrorCorrect" name="ErrorCorrect">Error Correct</button>
     <button type="submit" class="calculator" id="btnClear" name="Clear">Clear</button>
     <button type="submit" class="calculator" id="btnTotal" name="Total">Total</button>
-    
+    </<div>
     <button type="submit" class="items" id="btnPLU" name="PLU">PLU</button>
     <button type="submit" class="items" id="btnBurger1" name="Burger1">Burger1</button>
     <button type="submit" class="items" id="btnBurger2" name="Burger2">Burger2</button>
     <button type="submit" class="items" id="btnBurger3" name="Burger3">Burger3</button>
     <button type="submit" class="items" id="btnBurger4" name="Burger4">Burger4</button>
         
+        <script src="POS\src\main\webapp\WEB-INF\javascript\CalcScripts.js">
+        
+    function appendNum(num)
+        {
+        document.getElementById(calc-display)
+        }
+    </script>    
     </iframe>
     <hr>
     <!-- POS business operations elements go here -->

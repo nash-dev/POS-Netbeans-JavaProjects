@@ -6,6 +6,8 @@
         <welcome-file>logout.jsp</welcome-file>
     </welcome-file-list>
     <servlet>
+        <servlet-name>POSCalculatorServlet</servlet-name>
+        <servlet-class>myacademics.pos.controller.POSCalculatorServlet</servlet-class>
         <servlet-name>DashboardServlet</servlet-name>
         <servlet-class>myacademics.pos.controller.DashboardServlet</servlet-class>
     </servlet>

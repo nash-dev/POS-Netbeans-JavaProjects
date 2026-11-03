@@ -2,6 +2,7 @@ myacademics\pos\controller\LoginServlet.class
 myacademics\pos\dao\UserDAO.class
 myacademics\pos\JakartaRestConfiguration.class
 myacademics\pos\resources\JakartaEE11Resource.class
+org\servlets\pos\POSCalculatorServlet.class
 myacademics\pos\model\User.class
 myacademics\pos\User.class
 myacademics\pos\controller\DashboardServlet.class
